@@ -1,71 +1,91 @@
-Q1. For certain services like Amazon Elastic Compute Cloud (Amazon EC2) and 
+Q1. For certain services like amazon elastic compute cloud (Amazon EC2) and amazon relational database service (Amazon RDS) you can invest in reserved capacity. What options are available for reserved instances? (Choose 3).
 
-       Amazon Relational Database Service (Amazon RDS), you can invest in reserved capacity. 
-       What options are available for Reserved Instances?
-
-Answer: 
-              AURI
-              NURI
-              PURI
-
-Q2. Where can a customer go to get more details about Amazon Elastic Compute Cloud 
-       (Amazon EC2) billing activity that took the place 3 months ago?
-
-Answer: 
-
-               AWS Cost Explorer
-
-Q3. True or false? To receive the discounted rate associated with Reserved Instances, you must 
-        make a full, upfront payment for the term of the agreement
-
-Answer: 
-             False
-
-Q4. There is no charge for which of the following?
-
-Answer: 
-              Inbound data transfer (with some exceptions)
-              Data transfer between services within the same AWS Reg
-
-Q5. What are the four support plans offered by AWS Support?
-
-Answer: 
-              Basic, Developer, Business, Enterprise
+AURI.
+MURI.
+NURI.
+PURI.
+DURI.
+-->AURI, NURI, PURI.
 
 
-Q6. What AWS tool compares the cost of running your application in an on-premises data 
-       center to AWS?
+Q2. Where can a customer go to get more details about Amazon Elastic Compute Cloud (Amazon EC2) billing activity that took the place 3 months ago?
 
-Answer: 
-             Total Cost of Ownership (TCO) calculator
-
-
-Q7. As AWS grows, the cost of doing business is reduced and savings are passed back to the 
-      customer with lower pricing. What is this optimization called?
-
-Answer: 
-              Economics of scale
+Amazon EC2 Dashboard.
+AWS Cost Explorer.
+AWS Trusted Advisor Dashboard.
+AWS CloudTrail logs stored in Amazon Simple Storage Service (Amazon S3).
+-->Amazon Cost Explorer.
 
 
-Q8. True or false? AWS offers a variety of services at no charge, for example, Amazon Virtual Private Cloud (Amazon VPC), AWS Identity and Access Management (IAM), 
-       Consolidated Billing, AWS Elastic Beanstalk, automatic scaling, AWS Ops Works and 
-       AWS CloudFormation. However, you might be charged for other AWS services that you use 
-       in conjunction with these services
+Q3. True or false? To receive the discounted rate associated with Reserved Instances, you must make a full, upfront payment for the term of the agreement.
 
-Answer: 
-                True
+True.
+False.
+-->False.
 
 
-Q9. When are free data transfers applicable across AWS?
+Q4. Which statement is true about the pricing model on aws?
 
-Answer: 
+In most cases, there is per gigabyte charge for inbound data transfer.
+Storage is typically charged per gigabyte.
+Compute is typically charged as a monthly fee based on instance type.
+Outbound charges are free up to a per account limit.
+-->Storage is typically charged per gigabyte.
 
-               Free inbound data transfer for Amazon Elastic Computer Cloud (Amazon EC2) instances
+**Note: Storage is typically charged based on how many gigabytes you use. For services that use tiered pricing, the per gigabyte cost is less when you use more.
 
-               Free outbound data transfer between AWS services within the same Region
+
+Q5. What are the four support plans offered by aws support? (Select the best answer).
+
+Basic, Developer, Business, Enterprise.
+Basic, Startup, Business, Enterprise.
+Free, Bronze, Silver, Gold.
+All support is free.
+-->Basic, Developer, Business, Enterprise.
+
+
+Q6.What aws tool lets you explore AWS services and create an estimate for the cost of your use cases on AWS? (Select the best answer).
+
+AWS Pricing Calculator.
+AWS Budgets.
+AWS Cost and Usage Report.
+AWS Billing Dashboard.
+-->AWS Pricing Calculator.
+
+**Note: The AWS Pricing Calculator lets you model your solutions before building them, explore the price points and calculations behind your estimate, and find the available instance types and contract terms that meet your needs.
+
+
+Q7. As AWS grows the cost of doing business is reduced and savings are passed back to the customer with lower pricing. What is this optimization called? (Select the best answer).
+
+Expenditure Awareness.
+Economies of Scale.
+Matching supply and demand.
+EC2 Right Sizing.
+-->Economies of Scale.
+
+
+Q8. True or false? AWS offers a variety of services at no charge.For example, Amazon Virtual Private Cloud, AWS Identity and Access Management, Consolidated Billing, AWS Elastic Beanstalk, AWS Auto Scaling, AWS OpsWorks, and AWS Cloud Formation. However, you might be charged for other AWS services that you use in conjunction with these services.
+
+True
+False
+-->True.
+
+
+Q9. What are the benefits of using AWS organizations? (Choose two).
+
+Replaces existing aws identity and access management (IAM) policies with service control policies (SCP) which are simplier to manage.
+Provides the ability to create groups of accounts and then attach policies to a group.
+Provides the ability to create an unlimited number of nested organizational units (OU's) to support your desired structure.
+Simplifies automating account creation and management by using API's.
+Prevents any restrictions from being put on the root user that is associated with the main organization in an account.
+-->-Provides the ability to create groups of accounts and then attach policies to a group.
+   -Simplifies automating account creation and management by using API's.
 
 
 Q10. True of false? Unlimited services are available with the AWS Free Tier to new AWS customers for 12 months following their AWS sign-up date.
 
-Answer: 
-               False
+True
+False
+-->False.
+
+**Note: The AWS Free Tier applies to certain services and options.
