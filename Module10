@@ -43,11 +43,13 @@ D. Launches instances from a specified Amazon Machine Image (AMI)
 
 E. Enforces a minimum number of running Amazon EC2 instances
 
-Answer: [ B ] , [ D ]
+Answer: [ B ] , [ D ], [ E ]
 
 Responds to changing conditions by adding or terminating instances
 
 Launches instances from a specified Amazon Machine Image (AMI)
+
+Enforces a minimum number of running Amazon EC2 instances
 
 Q4. Which of the following must be configured on an Elastic Load Balancing load balancer 
 
