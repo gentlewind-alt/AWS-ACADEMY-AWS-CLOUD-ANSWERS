@@ -66,3 +66,10 @@ Q9. Economics of Scale result from_______
 Answer: 
 
        having hundreds of thousands of customers aggregated in cloud
+
+Q10. which of these are ways to access aws core services
+
+Answer:
+         AWS Management Console,
+         AWS Command Line Interface (CLI), 
+         Software Development Kits (SDKs)
