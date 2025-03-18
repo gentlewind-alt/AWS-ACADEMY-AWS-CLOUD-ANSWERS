@@ -43,13 +43,11 @@ D. Launches instances from a specified Amazon Machine Image (AMI)
 
 E. Enforces a minimum number of running Amazon EC2 instances
 
-Answer: [ B ] , [ D ] , [ E ] 
+Answer: [ B ] , [ D ]
 
 Responds to changing conditions by adding or terminating instances
 
 Launches instances from a specified Amazon Machine Image (AMI)
-
-Enforces a minimum number of running Amazon EC2 instances
 
 Q4. Which of the following must be configured on an Elastic Load Balancing load balancer 
 
@@ -105,7 +103,7 @@ D. Amazon Cloud Trial
 
 E. Amazon E2C Scaling 
 
-Answer: [ D ] Amazon CloudTrail
+Answer: [ B ] Amazon CloudWatch
 
 Q7. Which of the following are elements of an Auto Scaling group ? (Choose three)
 
@@ -156,3 +154,10 @@ D. Resumes routing traffic when manually restarted
 E. Routes traffic to a healthy target
 
 Answer: [ A ] , [ C ] , [ E ]  
+
+
+Q10. What are the three types of load balancer that elastic load balancing offers?
+
+Answer: Application Load Balancers (ALBs)
+        Network Load Balancers (NLBs)
+        Classic Load Balancer (CLB)
