@@ -1,0 +1,101 @@
+**1. Which IT requirement would lead an architect to choose an infrastructure as a service (IaaS) cloud service model?**  
+**Answer:** A company wants to maintain the highest level of flexibility over its IT resources.
+
+---
+
+**2. How do economies of scale help customers moving to cloud computing from on-premises computing?**  
+**Answer:** Customers can achieve lower variable costs and scale infrastructure beyond what is possible on premises.
+
+---
+
+**3. Which statements about how a company would use AWS Organizations are accurate? (Select TWO.)** 
+**Answer:**  
+- A company can consolidate and centrally manage multiple AWS accounts.  
+- A company can benefit from volume discounts with consolidated billing.
+
+---
+
+**4. Which factors are considered in calculating the total cost of ownership (TCO) for the AWS Cloud? (Select TWO.)**  
+**Answer:**  
+- The amount of storage that needs to be migrated to the cloud.  
+- The number of servers that need to be migrated to the cloud.
+
+---
+
+**5. Which statement about AWS Regions is true?**  
+**Answer:** Using a Region as close as possible to users can reduce latency.
+
+---
+
+**6. An AWS account administrator wants to grant temporary cross-account access that allows external users to access specific resources within their own account. Which action would align with the best practice of using temporary sessions?**  
+**Answer:** Create an AWS Identity and Access Management (IAM) role that can be assumed by external users and grant it permissions to the specific resources.
+
+---
+
+**7. Which scenario describes a use case for AWS CloudTrail?**  
+**Answer:** An account administrator wants the ability to track user activity on their account.
+
+---
+
+**8. A network administrator wants to configure a public subnet and route incoming and outgoing traffic to and from an Amazon EC2 instance in the public subnet to the public internet. Which virtual private cloud (VPC) feature should they use?**  
+**Answer:** An internet gateway.
+
+---
+
+**9. Which requirement suggests configuring Amazon Route 53 with latency routing?**  
+**Answer:** A company wants to route traffic to the Region that provides the fastest experience based on performance measurements.
+
+---
+
+**10. A company needs to run a short script each time a new item is added to an Amazon S3 bucket. Which compute option meets the need with the least amount of resource provisioning?**  
+**Answer:** Create an AWS Lambda function to run the script whenever a new item is added to the bucket.
+
+---
+
+**11. What role do security groups play in managing access to Amazon EC2 instances?
+**Answer:** Security groups provide a set of rules to control traffic to or from an instance.
+
+**12. A developer wants to use Amazon Elastic Block Store (Amazon EBS) for their application. What action should they take?**  
+**Answer:** Attach the Amazon EBS volume to an Amazon EC2 instance.
+
+---
+
+**13. Which statement about AWS storage services is accurate?**  
+**Answer:** To access an Amazon Elastic File System (Amazon EFS), the file system must be mounted on an Amazon EC2 instance in your virtual private cloud (VPC).
+
+---
+
+**14. A company needs to store billions of low volume daily events that will be used for analytics. Which storage option best fits this use case?**  
+**Answer:** Amazon S3.
+
+---
+
+**15. A company has an ecommerce site that requires storage and retrieval of unstructured customer metadata to support one of its microservices. Which database option is best suited to store this data?**  
+**Answer:** Amazon DynamoDB.
+
+---
+
+**16. What is an attribute in an Amazon DynamoDB table?**  
+**Answer:** A data element that doesn't need to be broken down further.
+
+---
+
+**17. How does AWS Trusted Advisor assist a company getting started with AWS?**  
+**Answer:** AWS Trusted Advisor provides recommendations on configuring your AWS resources.
+
+---
+
+**18. What type of alert might be provided by AWS Trusted Advisor?**  
+**Answer:** An alert that multi-factor authentication (MFA) isn't activated on an AWS account.
+
+---
+
+**19. Which scenario should be addressed with a Network Load Balancer?**  
+**Answer:**  
+- A solution must load balance millions of requests per second while maintaining low latency.
+
+---
+
+**20. Which statement accurately describes how Amazon EC2 Auto Scaling is used?**  
+**Answer:**  
+- The size of an Amazon EC2 Auto Scaling group will scale up and down automatically based on its configuration and the number of instances can't be manually adjusted.  
